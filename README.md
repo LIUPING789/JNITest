@@ -1,1 +1,3 @@
-#
+# JNITest
+-------
+Help Learning JNI
