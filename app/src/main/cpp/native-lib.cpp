@@ -7,6 +7,7 @@ JNIEXPORT jobject JNICALL
 Java_com_knight_ndktest_Hello_test(JNIEnv *env, jclass type) {
     //关于包描述符，这儿可以是 com.knight.ndktest.Student;
     // 这两种类型 都可以获得class引用
+
     jclass student_class = env->FindClass("com/knight/ndktest/Student");
     //获得得该类型的构造函数  函数名为 <init> 返回类型必须为 void 即 V
     jmethodID constrocMID = env->GetMethodID(student_class, "<init>", "()V");
