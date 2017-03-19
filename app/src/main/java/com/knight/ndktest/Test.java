@@ -9,6 +9,7 @@ public class Test {
         Student student = Hello.test();
         System.out.println("student 姓名 =" + student.getName());
         System.out.println("student 性别 =" + student.getSex());
+
     }
 
 }
